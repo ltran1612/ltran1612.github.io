@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a56cba8e.css",
-    "main.js": "/static/js/main.a7f12bb6.js",
+    "main.css": "/static/css/main.9e235f2f.css",
+    "main.js": "/static/js/main.bcd1619e.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/python.png": "/static/media/python.2dfe992c8ec71825b301.png",
     "static/media/homepage.jpeg": "/static/media/homepage.34cf029d8c249a633b8e.jpeg",
+    "static/media/php.png": "/static/media/php.2d79395d2a907c79f566.png",
+    "static/media/javascript.png": "/static/media/javascript.2fe71b42505ecc37194f.png",
+    "static/media/typescript.png": "/static/media/typescript.5d3c137c503d08b832d3.png",
     "static/media/logo.jpeg": "/static/media/logo.43dbe317b69494b5c3f4.jpeg",
+    "static/media/nmsu.png": "/static/media/nmsu.6ec749b50727cba9433d.png",
     "index.html": "/index.html",
-    "main.a56cba8e.css.map": "/static/css/main.a56cba8e.css.map",
-    "main.a7f12bb6.js.map": "/static/js/main.a7f12bb6.js.map",
+    "main.9e235f2f.css.map": "/static/css/main.9e235f2f.css.map",
+    "main.bcd1619e.js.map": "/static/js/main.bcd1619e.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a56cba8e.css",
-    "static/js/main.a7f12bb6.js"
+    "static/css/main.9e235f2f.css",
+    "static/js/main.bcd1619e.js"
   ]
 }
