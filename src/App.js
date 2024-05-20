@@ -24,7 +24,7 @@ function App() {
 		const path = project.link;
 		console.log(path)
 		return (
-			<Route key={project.title} path={path} element={project.element} />
+			<Route key={project.title} path={path} element={project.element(project)} />
 		)
 	});
 

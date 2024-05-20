@@ -5,6 +5,7 @@ import tsLogo from "../assets/languages/typescript.png"
 import phpLogo from "../assets/languages/php.png"
 import csharpLogo from "../assets/languages/csharp.png"
 import DefaultProject from "../components/projects/default-project"
+import SupplyChainProject from "../pages/projects/ai-config";
 
 const INFO = {
 	main: {
@@ -39,6 +40,7 @@ const INFO = {
 			logo: pyLogo,
 			linkText: "View Project",
 			link: "/projects/supply-chain-sim",
+			element: SupplyChainProject, 
 		},
 
 		{
@@ -77,7 +79,8 @@ const INFO = {
 };
 
 for (const project of INFO.projects) {
-	project["element"] = <DefaultProject title={project.title}/>;
+	if (project["element"] === undefined)
+		project["element"] = DefaultProject;
 }
 
 export default INFO;
