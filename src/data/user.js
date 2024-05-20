@@ -1,4 +1,10 @@
 import logo from "../assets/logo.jpeg"
+import pyLogo from "../assets/languages/python.png"
+import jsLogo from "../assets/languages/javascript.png"
+import tsLogo from "../assets/languages/typescript.png"
+import phpLogo from "../assets/languages/php.png"
+import csharpLogo from "../assets/languages/csharp.png"
+import DefaultProject from "../components/projects/default-project"
 
 const INFO = {
 	main: {
@@ -30,20 +36,48 @@ const INFO = {
 			title: "Supply Chains Simulator",
 			description:
 				"A Python3 distributed supply chains simulator using logic programming.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: pyLogo,
 			linkText: "View Project",
-			link: "/projects/",
+			link: "/projects/supply-chain-sim",
 		},
 
 		{
-			title: "Project 2",
+			title: "Scalable E-commerce Website Template",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"An e-commerce website template built with Next.js, React.js, and Medusa.js.",
+			logo: tsLogo,
 			linkText: "View Project",
-			link: "/projects/",
+			link: "/projects/intern-project-2023",
+		},
+		{
+			title: "A.I Conference Registration Website",
+			description:
+				"A registration form website for an A.I conference.",
+			logo: phpLogo,
+			linkText: "View Project",
+			link: "/projects/conf-registration",
+		},
+		{
+			title: "Data Visualization Admin Web Portal",
+			description:
+				"A web app to visualize data with on-demand automated actions to save time for a COVID-19 contact-tracing project.",
+			logo: jsLogo,
+			linkText: "View Project",
+			link: "/projects/contact-tracing-web-portal",
+		},
+		{
+			title: "Virtual Reality Data Coding Workspace",
+			description:
+				"A Virtual Reality application on the Oculus Quest platform to do data coding qualitative analysis.",
+			logo: csharpLogo,
+			linkText: "View Project",
+			link: "/projects/vr-data-coding",
 		},
 	],
 };
+
+for (const project of INFO.projects) {
+	project["element"] = <DefaultProject title={project.title}/>;
+}
 
 export default INFO;
